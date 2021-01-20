@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+    <title>COBA COBA HTML</title>
+</head>
+
+<body bgcolor="white">
+    <h1>hello wasdasd</h1>
+    <h2>hello world!</h2>
+    <h3>hello world!</h3>
+    
+    <hr>
+    <p>This is a <br> paragraph with a line break.</p>
+    <p><b>haloo kamu</b> <i>jelek</i> <u>sekali</u></p>
+    <p><strong>PERINGATAN</strong> <em>jangan pulang</em></p>
+    <p>halo babang ku</p>
+    <hr>
+    <h2 id="pertama">urut</h2>
+    <!-- urut angka -->
+    <!-- ol type="" -->
+    <ol> 
+        <li>aku</li>
+        <li>hehe</li>
+        <li>kamu</li>
+    </ol>
+    <!-- tidak urut -->
+    <h2>tidak urut</h2>
+    <ul>
+        <li>wehehw</li>
+    </ul>
+    <h2>daftar definisi</h2>
+    <dl>
+        <dt><strong>sub bab</strong></dt>
+        <dd>penjelasan</dd>
+    </dl>
+    <hr>
+
+    <!-- hyperlink -->
+    <h2>hyperlink</h2>
+    <a href="https://www.w3schools.com">This is a link</a>
+    <p>yuk dibuka <a href="https://www.facebook.com">disini</a></p>
+    <a href="#pertama">kembali ke urut</a>
+    <hr>
+
+    <!-- gambar -->
+    <img src="mariya.jpg" width="100" height="120" >
+    <img src="mariya.jpg" width="100" height="120" title="mariya">
+    <img src="mariya.jg" width="100" height="120" alt="mariya tek">
+    <a href="https://www.facebook.com">
+        <img src="tombol.jpg" width="100">
+    </a>
+    <img src="https://i.pinimg.com/originals/a5/31/15/a53115373012fdfb93c2b86b70defe0a.jpg" height="120">
+    <!-- ini command -->
+    <hr>
+
+    <!-- tabel -->
+    <h2>tabel</h2>
+    <table>
+        <tr>
+            <td>baris1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris 2 kolom 1</td>
+            <td>baris 2 kolom 2</td>
+        </tr>
+    </table>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>baris1</th>
+                <td>wkakka</td>
+                <td>wkakka</td>
+            </tr>
+            <tr>
+                <th>baris2</th>
+                <td>wffwfwf</td>
+                <td>wffwfw</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!-- tabel 2 -->
+    <h2>tabel 2</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <td rowspan="3">coba coba bos</td>
+            <th colspan="3">coba gabung</th>
+        </tr>
+        <tr>    
+            <td>wkakka</td>
+            <td>wkakka</td>
+        </tr>
+        <tr>    
+            <td>wffwfwf</td>
+            <td>wffwfw</td>
+            </tr>>
+    </table>
+    <hr>
+
+    <!-- belajar form -->
+    <h2>belajar form</h2>
+    <form>
+        <label for="email">email :</label>
+        <input type="text" id="email">
+            <br>
+        <label for="password">password :</label>
+        <input type="password" id="password">
+            <br>
+        <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+        <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+            <br>
+        <input type="checkbox" id="senin"><label for="senin">senin</label>
+        <input type="checkbox" id="selasa"><label for="senin">selasa</label>
+        <input type="checkbox" id="rabu"><label for="rabu">rabu</label>
+        <input type="checkbox" id="kamis"><label for="kamis">kamis</label>
+        <input type="checkbox" id="jumat"><label for="jumat">jumat</label>
+            <br>
+        <input type="submit" value="kirim">
+        <button type="submit">kirim2</button>
+    </form>
+    <hr>
+
+    <!-- form lanjutan -->
+    <h2>form lanjutan</h2>
+    <textarea></textarea>
+    <br>
+    <select>
+        <option>satu</option>
+        <option>dua</option>
+        <option>tiga</option>
+    </select>
+</body>
+</html>
